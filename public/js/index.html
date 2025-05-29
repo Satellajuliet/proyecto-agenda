@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda de Contactos</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>📒 Agenda de Contactos</h1>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="telefono" placeholder="Teléfono">
+    <input type="text" id="correo_eletronico" placeholder="Correo Electrónico">
+    <button id="agregarContacto">Agregar Contacto</button>
+    <input type="text" id="buscador" placeholder="Buscar contacto..." onkeyup="filtrarContactos()">
+    <div id="lista-contactos"></div>
+    <button class="limpiar" id="limpiarContactos">🧹 Limpiar Todo</button>
+    <p id="mensaje"></p>
+  </div>
+</body>
+</html>
